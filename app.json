@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "HEVC Video Selector",
+    "slug": "hevc-video-selector",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "hevc-video-selector",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.user.hevc-video-selector"
+    },
+    "android": {
+      "package": "com.user.hevc_video_selector"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://example.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": "https://example.com/"
+      },
+      "eas": {
+        "projectId": "2f91af43-85d4-49ad-ac5d-8543f703b512"
+      }
+    }
+  }
+}
